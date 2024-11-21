@@ -8,13 +8,13 @@
         <title>Basic Struts 2 Application - Welcome</title>
     </head>
     <body>
-        <h1> INDEX  Welcome To Struts 2 skill primero osea index!</h1>
+        <h1> Bienvenido a Struts 2 "INDEX.JSP"!</h1>
         <p><a href="<s:url action='hello'/>">Hello World</a></p>
-
-        <p>Get your own personal hello by filling out and submitting this form.</p>
+        <p><a href="register.jsp">Please register</a> for our prize drawing.</p>
+        <p>Obtenga su saludo personal rellenando y enviando este formulario.</p>
 
         <s:form action="hello">
-            <s:textfield name="userName" label="Your name" />
+            <s:textfield name="UserName" label="Your name" />
             <s:submit value="Submit" />
         </s:form>
 

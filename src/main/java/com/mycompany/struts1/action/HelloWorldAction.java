@@ -9,7 +9,7 @@ public class HelloWorldAction extends ActionSupport {
     private static int helloCount = 0;
     private String userName;
 
-    public String execute() {
+    public String execute() throws Exception{
         messageStore = new MessageStore();
 
         if (userName != null) {

@@ -5,7 +5,7 @@ public class MessageStore {
     private String message;
 
     public MessageStore() {
-        message = "PELAYO YOLER QUISPE CCENTE";
+        message = "HOLA USUARIO: ";
     }
 
     public String getMessage() {
@@ -15,6 +15,13 @@ public class MessageStore {
     public void setMessage(String Message) {
         this.message = Message;
     }
+    public String toString()
+    {
+        return message + "";
+    }    
+    
+    
+    
     
     
 }
